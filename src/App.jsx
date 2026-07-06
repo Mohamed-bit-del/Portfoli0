@@ -1,11 +1,5 @@
-import React from 'react'
-import './App.css'
+import AppRoutes from "./routes/AppRoutes";
 
-function App() {
-
-  return (
-    <p>Hello Vite!</p>
-  )
+export default function App() {
+  return <AppRoutes />;
 }
-
-export default App
